@@ -10,10 +10,13 @@
         <div id="{{i}}">
           <p>{{quote.quote}}</p>
         </div>
-        <button class="btn btn-primary" (click)="toggleDetails">Details</button>
+        <button class="btn btn-primary" (click)="toggleDetails(i)">Details</button>
 
         <div>
-          <app-quote-details></app-quote-details>
+          <app-quote-details
+            *ngIf="quote.showDescription"
+            [quote]="quote"
+          ></app-quote-details>
         </div>
       </div>
     </div>

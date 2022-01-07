@@ -20,7 +20,7 @@ export class QuoteComponent implements OnInit {
   }
   
   downvoteQuote(index: number) {
-    this.quotes[index].upvotes += 1;
+    this.quotes[index].downvotes += 1;
   }
 
   constructor() { }

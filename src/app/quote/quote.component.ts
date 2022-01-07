@@ -15,6 +15,10 @@ export class QuoteComponent implements OnInit {
     this.quotes[index].showDescription = !this.quotes[index].showDescription;
   }
 
+  upvoteQuote(index: number) {
+    this.quotes[index].upvotes += 1;
+  }
+
   constructor() { }
 
   ngOnInit(): void {

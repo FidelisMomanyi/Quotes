@@ -35,7 +35,7 @@ If you dont have this requirements you could use the link above to help with the
 
 ## Live link
 
-
+https://fidelismomanyi.github.io/quotes/
 
 ## Known Bugs
 
